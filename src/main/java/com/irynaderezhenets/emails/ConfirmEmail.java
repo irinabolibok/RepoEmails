@@ -9,6 +9,6 @@ public class ConfirmEmail extends AbstractEmail {
     }
 
     public void sendEmail() {
-        System.out.println(String.format("Confirm  Email title: %s, content: %s, password:%s", title, content, password));
+        super.sendEmailFormat(title, content);
     }
 }

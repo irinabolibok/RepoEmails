@@ -2,6 +2,7 @@ package com.irynaderezhenets.emails;
 
 public class GenericEmail extends AbstractEmail {
     public GenericEmail(String title, String content) {
+
         super(title, content);
     }
 
